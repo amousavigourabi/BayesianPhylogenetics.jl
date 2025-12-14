@@ -1,5 +1,5 @@
 module BayesianPhylogenetics
 
-# Write your package code here.
+# TODO exposed package
 
 end
