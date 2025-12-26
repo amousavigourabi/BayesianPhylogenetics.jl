@@ -3,8 +3,18 @@ uuid = "e907b063-157f-4c69-aaad-f552b388cf88"
 authors = ["amousavigourabi <amousavigourabi@gmail.com>"]
 version = "1.0.0-DEV"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+
 [compat]
-julia = "1.6.7"
+LinearAlgebra = "1.11.0"
+MKL = "0.9.0"
+Roots = "2.2.10"
+SpecialFunctions = "2.6.1"
+julia = "1.6"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
